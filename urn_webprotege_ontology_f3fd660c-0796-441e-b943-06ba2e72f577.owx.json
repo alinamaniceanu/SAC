@@ -1,0 +1,730 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://webprotege.stanford.edu",
+      "http://www.w3.org/2002/07/owl",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.49",
+      "translation": [
+        582.81,
+        223.22
+      ],
+      "paused": true
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId21",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId23",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "Class24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "8",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "Class30",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class31",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class32",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "10",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577Game",
+      "baseIri": "http://webprotege.stanford.edu",
+      "label": {
+        "IRI-based": "R97BCs1mcGZW7wrBVUbry07",
+        "undefined": "Game"
+      },
+      "individuals": [
+        {
+          "iri": "http://webprotege.stanford.edu/R1QBLYdVPW8yluwGjw0Iki",
+          "labels": {
+            "IRI-based": "R1QBLYdVPW8yluwGjw0Iki",
+            "undefined": "Minecraft"
+          }
+        },
+        {
+          "iri": "http://webprotege.stanford.edu/RC8DnFNAQDspx69kS9QEkvq",
+          "labels": {
+            "IRI-based": "RC8DnFNAQDspx69kS9QEkvq",
+            "undefined": "The Legend of Zelda: Breath of the Wild"
+          }
+        }
+      ],
+      "pos": [
+        606.35,
+        400.05
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577Player",
+      "baseIri": "http://webprotege.stanford.edu",
+      "label": {
+        "IRI-based": "R7OeqmDDsWQW73zU7kbnjuu",
+        "undefined": "Player"
+      },
+      "individuals": [
+        {
+          "iri": "http://webprotege.stanford.edu/R8QSa075B4XvfESnu5DFxCv",
+          "labels": {
+            "IRI-based": "R8QSa075B4XvfESnu5DFxCv",
+            "undefined": "John Smith"
+          }
+        },
+        {
+          "iri": "http://webprotege.stanford.edu/R97SyRJsa3AEOfbdqURyQSb",
+          "labels": {
+            "IRI-based": "R97SyRJsa3AEOfbdqURyQSb",
+            "undefined": "Emily Johnson"
+          }
+        }
+      ],
+      "pos": [
+        211.19,
+        -304.49
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577Developer",
+      "baseIri": "http://webprotege.stanford.edu",
+      "label": {
+        "IRI-based": "RV7o8ifiKdgPqghILiwFJ",
+        "undefined": "Developer"
+      },
+      "individuals": [
+        {
+          "iri": "http://webprotege.stanford.edu/R8p7jkLpRjNoXbjbS5B6jhj",
+          "labels": {
+            "IRI-based": "R8p7jkLpRjNoXbjbS5B6jhj",
+            "undefined": "Nintendo"
+          }
+        },
+        {
+          "iri": "http://webprotege.stanford.edu/R0XHdgVZuiFMyRpwP81QKC",
+          "labels": {
+            "IRI-based": "R0XHdgVZuiFMyRpwP81QKC",
+            "undefined": "Mojang Studios"
+          }
+        }
+      ],
+      "pos": [
+        439.56,
+        -141.76
+      ]
+    },
+    {
+      "id": "Class19",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577Mihai",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Mihai",
+      "pos": [
+        -153.24,
+        -90.82
+      ]
+    },
+    {
+      "id": "Class20",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577Minecraft",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Minecraft",
+      "pos": [
+        -99.34,
+        108.7
+      ]
+    },
+    {
+      "id": "NodeId21",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "double",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        474.69,
+        743.19
+      ]
+    },
+    {
+      "id": "NodeId23",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        255.21,
+        725.7
+      ]
+    },
+    {
+      "id": "Class24",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577Maria",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Maria",
+      "pos": [
+        -428.58,
+        -169.02
+      ]
+    },
+    {
+      "id": "Class25",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577The_Legend_of_Zelda:_Breath_of_the_Wild",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Far Cry 5",
+      "pos": [
+        -99.22,
+        463.89
+      ]
+    },
+    {
+      "id": "Class28",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577Mojang_Studios",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Mojang Studios",
+      "pos": [
+        169.69,
+        -71.97
+      ]
+    },
+    {
+      "id": "Class29",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577Nintendo",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Ubisoft",
+      "pos": [
+        561.31,
+        167.27
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        626.03,
+        746.73
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": "Thing",
+      "pos": [
+        894.47,
+        -177.02
+      ]
+    },
+    {
+      "id": "Class30",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577FPS",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "FPS",
+      "pos": [
+        -186.1,
+        728.67
+      ]
+    },
+    {
+      "id": "Class31",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f5773D_sandbox",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "3D sandbox",
+      "pos": [
+        -798.96,
+        114.37
+      ]
+    },
+    {
+      "id": "Class32",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577Genre",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Genre",
+      "pos": [
+        -560.29,
+        420.84
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "0",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty12",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty14",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty15",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty16",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty17",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "datatypeProperty18",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty20",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty21",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty23",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty24",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty26",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty27",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty28",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty30",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty31",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty33",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty34",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty35",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty36",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty38",
+      "type": "rdfs:subClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "0",
+      "iri": "http://webprotege.stanford.edu/RCcGvNy1AhUTrrSoPFPr5hA",
+      "baseIri": "http://webprotege.stanford.edu",
+      "label": {
+        "IRI-based": "RCcGvNy1AhUTrrSoPFPr5hA",
+        "undefined": "description"
+      },
+      "attributes": [
+        "external"
+      ],
+      "domain": "10",
+      "range": "2",
+      "pos": [
+        617.71,
+        600.24
+      ]
+    },
+    {
+      "id": "objectProperty12",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Subclass of",
+      "domain": "10",
+      "range": "8",
+      "pos": [
+        757.96,
+        96.4
+      ]
+    },
+    {
+      "id": "objectProperty14",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Subclass of",
+      "domain": "12",
+      "range": "8",
+      "pos": [
+        569.43,
+        -237.66
+      ]
+    },
+    {
+      "id": "objectProperty15",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Subclass of",
+      "domain": "20",
+      "range": "8",
+      "pos": [
+        683.86,
+        -160.7
+      ]
+    },
+    {
+      "id": "objectProperty16",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Subclass of",
+      "domain": "Class19",
+      "range": "12",
+      "pos": [
+        23.02,
+        -194.17
+      ]
+    },
+    {
+      "id": "objectProperty17",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577objectProperty17",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Subclass of",
+      "domain": "Class20",
+      "range": "10",
+      "pos": [
+        247.14,
+        251.75
+      ]
+    },
+    {
+      "id": "datatypeProperty18",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577rating",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "rating",
+      "domain": "10",
+      "range": "NodeId21",
+      "pos": [
+        531.02,
+        596.4
+      ]
+    },
+    {
+      "id": "objectProperty20",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577hasPlayer",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "hasPlayer",
+      "domain": "Class20",
+      "range": "Class19",
+      "pos": [
+        -126.29,
+        8.94
+      ]
+    },
+    {
+      "id": "datatypeProperty21",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577releaseYear",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "releaseYear",
+      "domain": "10",
+      "range": "NodeId23",
+      "pos": [
+        412.79,
+        579.56
+      ]
+    },
+    {
+      "id": "objectProperty23",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577objectProperty23",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Subclass of",
+      "domain": "Class24",
+      "range": "12",
+      "pos": [
+        -115.44,
+        -235.33
+      ]
+    },
+    {
+      "id": "objectProperty24",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577objectProperty24",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Subclass of",
+      "domain": "Class25",
+      "range": "10",
+      "pos": [
+        246.7,
+        432.59
+      ]
+    },
+    {
+      "id": "objectProperty26",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577hasPlayer",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "hasPlayer",
+      "domain": "Class25",
+      "range": "Class24",
+      "pos": [
+        -263.9,
+        147.43
+      ]
+    },
+    {
+      "id": "objectProperty27",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577objectProperty27",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Subclass of",
+      "domain": "Class28",
+      "range": "20",
+      "pos": [
+        297.95,
+        -105.14
+      ]
+    },
+    {
+      "id": "objectProperty28",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577objectProperty28",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Subclass of",
+      "domain": "Class29",
+      "range": "20",
+      "pos": [
+        502.97,
+        19.17
+      ]
+    },
+    {
+      "id": "objectProperty30",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577developedBy",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "developedBy",
+      "domain": "Class25",
+      "range": "Class29",
+      "pos": [
+        231.05,
+        315.58
+      ]
+    },
+    {
+      "id": "objectProperty31",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577developedBy",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "developedBy",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class20",
+      "range": "Class28",
+      "pos": [
+        35.18,
+        18.36
+      ]
+    },
+    {
+      "id": "objectProperty33",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577objectProperty33",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Subclass of",
+      "domain": "Class30",
+      "range": "Class32",
+      "pos": [
+        -373.2,
+        574.76
+      ]
+    },
+    {
+      "id": "objectProperty34",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577objectProperty34",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Subclass of",
+      "domain": "Class31",
+      "range": "Class32",
+      "pos": [
+        -679.62,
+        267.6
+      ]
+    },
+    {
+      "id": "objectProperty35",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577hasGenre",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "hasGenre",
+      "domain": "Class25",
+      "range": "Class30",
+      "pos": [
+        -142.66,
+        596.28
+      ]
+    },
+    {
+      "id": "objectProperty36",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577hasGenre",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "hasGenre",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class24",
+      "range": "Class31",
+      "pos": [
+        -613.77,
+        -27.33
+      ]
+    },
+    {
+      "id": "objectProperty38",
+      "iri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577objectProperty38",
+      "baseIri": "urn:webprotege:ontology:f3fd660c-0796-441e-b943-06ba2e72f577",
+      "label": "Subclass of",
+      "domain": "Class32",
+      "range": "8",
+      "pos": [
+        176.34,
+        118.11
+      ]
+    }
+  ]
+}
