@@ -1,5 +1,5 @@
 from recombee_api_client.api_client import RecombeeClient, Region
-from recombee_api_client.api_requests import AddItem, AddItemProperty, SetItemValues, ListItems
+from recombee_api_client.api_requests import AddItem, AddItemProperty, SetItemValues, ListItems, AddUser, AddDetailView, RecommendItemsToUser
 from recombee_api_client.exceptions import APIException
 import pandas as pd
 
@@ -44,6 +44,40 @@ def print_items():
     result = client.send(ListItems(return_properties=True))
     print(result)
 
+def add_users(user_ids):
+    for user_id in user_ids:
+        try:
+            client.send(AddUser(user_id))
+            print(f"User: {user_id} added")
+        except APIException as e:
+            print(f"Error adding user {user_id}: {e}")	
+
+def add_interactions(user_ids, item_ids):
+    for user_id in user_ids:
+        for item_id in item_ids:
+            try:
+                client.send(AddDetailView(user_id, item_id))
+                print(f"User {user_id} viewed item {item_id}")
+            except APIException as e:
+                print(f"Error adding view interaction: {e}")
+
+def get_recommendations(user_id, num_recommendations):
+    recommendations = client.send(RecommendItemsToUser(user_id, num_recommendations))
+    recommended_items = [item['id'] for item in recommendations['recomms']]
+    return recommended_items
+
+
 # add_item_properties()
 # add_items()
 print_items()
+
+# user_ids = ["user1", "user2", "user3"]
+# add_users(user_ids)
+
+# user_ids = ["user1", "user2"]
+# item_ids = ["77", "268"]
+# add_interactions(user_ids, item_ids)
+
+user_id = "user3"
+num_recommendations = 5
+recommended_items = get_recommendations(user_id, num_recommendations)
